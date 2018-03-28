@@ -5,15 +5,27 @@
             <fileSets>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">
                     <directory>src/main/java</directory>
+                    <excludes>
+                        <exclude>**/.gitignore</exclude>
+                    </excludes>
                 </fileSet>
                 <fileSet encoding="UTF-8">
                     <directory>src/main/resources</directory>
+                    <excludes>
+                        <exclude>**/.gitignore</exclude>
+                    </excludes>
                 </fileSet>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">
                     <directory>src/test/java</directory>
+                    <excludes>
+                        <exclude>**/.gitignore</exclude>
+                    </excludes>
                 </fileSet>
                 <fileSet encoding="UTF-8">
                     <directory>src/test/resources</directory>
+                    <excludes>
+                        <exclude>**/.gitignore</exclude>
+                    </excludes>
                 </fileSet>
             </fileSets>
         </module>
@@ -21,15 +33,27 @@
             <fileSets>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">
                     <directory>src/main/java</directory>
+                    <excludes>
+                        <exclude>**/.gitignore</exclude>
+                    </excludes>
                 </fileSet>
                 <fileSet encoding="UTF-8">
                     <directory>src/main/resources</directory>
+                    <excludes>
+                        <exclude>**/.gitignore</exclude>
+                    </excludes>
                 </fileSet>
                 <fileSet filtered="true" packaged="true" encoding="UTF-8">
                     <directory>src/test/java</directory>
+                    <excludes>
+                        <exclude>**/.gitignore</exclude>
+                    </excludes>
                 </fileSet>
                 <fileSet encoding="UTF-8">
                     <directory>src/test/resources</directory>
+                    <excludes>
+                        <exclude>**/.gitignore</exclude>
+                    </excludes>
                 </fileSet>
             </fileSets>
         </module>
